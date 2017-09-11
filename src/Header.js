@@ -13,7 +13,7 @@ class Header extends Component {
             }
         }
         return(
-            <div className="Header" style={styles.background}>
+            <div className="Page-Header" style={styles.background}>
                 <h1 style={{fontSize: '80px', color: '#ffffff', textAlign: 'center'}}>沃 锦文</h1>
                 <h3 style={{fontSize: '20px', color: '#ffffff', textAlign: 'center'}}>Studying to Become a Full Stack Developer</h3>
             </div>
