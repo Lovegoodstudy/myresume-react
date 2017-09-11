@@ -16,7 +16,7 @@ const muiTheme = getMuiTheme({
     },
     palette: {
         appBarColor : teal500,
-        aboutColor : teal50,
+        aboutColor : teal500,
     }
 });
 
