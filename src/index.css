@@ -16,8 +16,20 @@ body {
     font-size: large;
 }
 
+@media (max-width: 799px) {
+    #Circles {
+        display: none;
+    }
+    .SkillLine {
+        padding: 10px 10px 10px 10px;
+    }
+}
+
 @media (min-width: 800px) and (max-width: 1279px) {
-    .Skill {
+    #Lines {
+        display: none;
+    }
+    .SkillCircle {
         display: inline-block;
         width: 48%;
         text-align: center;
@@ -26,7 +38,10 @@ body {
 }
 
 @media (min-width: 1280px) {
-    .Skill {
+    #Lines {
+        display: none;
+    }
+    .SkillCircle {
         display: inline-block;
         width: 32%;
         text-align: center;

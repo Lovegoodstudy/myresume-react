@@ -1,6 +1,7 @@
 import React,{Component} from 'react';
 import muiThemeable from 'material-ui/styles/muiThemeable';
 import SkillCircle from './SkillCircle'
+import SkillLine from './SkillLine'
 import FlatButton from 'material-ui/FlatButton'
 import SvgIcon from 'material-ui/SvgIcon';
 
@@ -20,15 +21,26 @@ class Skills extends Component {
                     <h4>SKILLS</h4>
                 </div>
                 <div className="Context">
-                    <SkillCircle value={80} label="JavaScript"/>
-                    <SkillCircle value={70} label="HTML+CSS"/>
-                    <SkillCircle value={55} label="Express.js"/>
-                    <SkillCircle value={50} label="Bootstrap+jQuery"/>
-                    <SkillCircle value={50} label="React.js"/>
-                    <SkillCircle value={30} label="C,Java,Python"/>
+                    <div id="Circles">
+                        <SkillCircle value={80} label="JavaScript"/>
+                        <SkillCircle value={70} label="HTML+CSS"/>
+                        <SkillCircle value={55} label="Express.js"/>
+                        <SkillCircle value={50} label="Bootstrap+jQuery"/>
+                        <SkillCircle value={50} label="React.js"/>
+                        <SkillCircle value={30} label="C,Java,Python"/>
+                    </div>
+                    <div id="Lines">
+                        <SkillLine value={80} label="JavaScript"/>
+                        <SkillLine value={70} label="HTML+CSS"/>
+                        <SkillLine value={55} label="Express.js"/>
+                        <SkillLine value={50} label="Bootstrap+jQuery"/>
+                        <SkillLine value={50} label="React.js"/>
+                        <SkillLine value={30} label="C,Java,Python"/>
+                    </div>
                 </div>
                 <div className="More">
                     <FlatButton
+                        href="https://github.com/Lovegoodstudy"
                         style={{color: '#ffffff', marginTop : '16px'}}
                         target="_blank"
                         label="My Github"

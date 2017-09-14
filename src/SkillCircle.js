@@ -5,7 +5,7 @@ import CircularProgress from 'material-ui/CircularProgress';
 class SkillCircle extends Component {
     render() {
         return(
-            <div className="Skill">
+            <div className="SkillCircle">
                 <div>
                     <CircularProgress
                         color={'#eeeeee'}
