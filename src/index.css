@@ -4,6 +4,36 @@ body {
     font-family: sans-serif;
 }
 
+#Education t {
+    color: #34495e;
+    font-weight: bold;
+    font-size: large;
+}
+
+#Skills t {
+    color: #dddddd;
+    font-weight: bold;
+    font-size: large;
+}
+
+@media (min-width: 800px) and (max-width: 1279px) {
+    .Skill {
+        display: inline-block;
+        width: 48%;
+        text-align: center;
+        padding: 15px 0 15px 0;
+    }
+}
+
+@media (min-width: 1280px) {
+    .Skill {
+        display: inline-block;
+        width: 32%;
+        text-align: center;
+        padding: 15px 0 15px 0;
+    }
+}
+
 @media (min-width: 1024px) {
     .Header {
         display: inline-block;
@@ -20,6 +50,11 @@ body {
         display: inline-block;
         vertical-align: top;
         width: 15%;
+    }
+    .CircleSkills {
+        display: inline-block;
+        vertical-align: top;
+        width: 69%;
     }
 }
 

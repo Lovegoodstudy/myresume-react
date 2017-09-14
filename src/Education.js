@@ -17,7 +17,22 @@ class Education extends Component {
                     <h4>EDUCATION</h4>
                 </div>
                 <div className="Context">
-                    <p>Now, I'm a full-time student and I've studied for 2 years. I'm interested in all kinds of software development, but my major focus is on web development. I've learned some web development skills after class but I'm still learning to become a Full Stack developer. </p>
+                    <p><t>Software Engineering</t></p>
+                    <p>Huazhong University of Science and Technology</p>
+                    <p>4 years course</p>
+                </div>
+                <div className="More">
+                    <p>September 2015 - June 2019</p>
+                </div>
+                <div className="Header">
+                </div>
+                <div className="Context">
+                    <p><t>Full Stack Development Training Camp</t></p>
+                    <p>ThoughtWorks Wuhan Training Camp</p>
+                    <p>7 weeks course</p>
+                </div>
+                <div className="More">
+                    <p>July, August 2017</p>
                 </div>
             </div>
         )
