@@ -3,7 +3,7 @@ import './App.css';
 
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
 import getMuiTheme from 'material-ui/styles/getMuiTheme';
-import {teal100, teal500, teal800, teal50, tealA700} from 'material-ui/styles/colors'
+import {teal100, teal500, teal800, teal50, teal700} from 'material-ui/styles/colors'
 
 import NavBar from './NavBar'
 import Header from './Header'
@@ -28,7 +28,7 @@ const muiTheme = getMuiTheme({
         skillsTextColor : '#cccccc',
         experienceBackgroundColor : teal50,
         experienceTextColor : '#333333',
-        contactBackgroundColor : teal800,
+        contactBackgroundColor : teal700,
         contactTextColor : '#dddddd'
     }
 });

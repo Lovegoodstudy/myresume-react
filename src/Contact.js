@@ -1,7 +1,5 @@
 import React,{Component} from 'react';
 import muiThemeable from 'material-ui/styles/muiThemeable';
-import FlatButton from 'material-ui/FlatButton'
-import SvgIcon from 'material-ui/SvgIcon';
 
 class Contact extends Component {
     render() {
@@ -16,7 +14,7 @@ class Contact extends Component {
         return(
             <div className="Block" style={styles.background} id="Contact">
                 <div className="Header">
-                    <h4>Contact</h4>
+                    <h4>CONTACT</h4>
                 </div>
                 <div className="Context">
                     <p><t>EMAIL</t></p>

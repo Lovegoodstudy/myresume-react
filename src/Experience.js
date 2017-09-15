@@ -1,7 +1,5 @@
 import React,{Component} from 'react';
 import muiThemeable from 'material-ui/styles/muiThemeable';
-import FlatButton from 'material-ui/FlatButton'
-import SvgIcon from 'material-ui/SvgIcon';
 
 class Experience extends Component {
     render() {
