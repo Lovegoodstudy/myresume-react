@@ -3,7 +3,7 @@ import './App.css';
 
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
 import getMuiTheme from 'material-ui/styles/getMuiTheme';
-import {teal100, teal500, blueGrey800, teal50, tealA700} from 'material-ui/styles/colors'
+import {teal100, teal500, teal800, teal50, tealA700} from 'material-ui/styles/colors'
 
 import NavBar from './NavBar'
 import Header from './Header'
@@ -11,6 +11,7 @@ import About from './About'
 import Education from './Education'
 import Skills from './Skills'
 import Experience from './Experience'
+import Contact from './Contact'
 
 const muiTheme = getMuiTheme({
     appBar: {
@@ -23,10 +24,12 @@ const muiTheme = getMuiTheme({
         aboutTextColor : '#ffffff',
         educationBackgroundColor : teal100,
         educationTextColor : '#444444',
-        skillsBackgroundColor : blueGrey800,
+        skillsBackgroundColor : teal800,
         skillsTextColor : '#cccccc',
         experienceBackgroundColor : teal50,
-        experienceTextColor : '#333333'
+        experienceTextColor : '#333333',
+        contactBackgroundColor : teal800,
+        contactTextColor : '#dddddd'
     }
 });
 
@@ -41,6 +44,7 @@ class App extends Component {
                     <Education/>
                     <Skills/>
                     <Experience/>
+                    <Contact/>
                 </div>
             </MuiThemeProvider>
         );
